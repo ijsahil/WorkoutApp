@@ -22,10 +22,13 @@ class BmiCalculator : AppCompatActivity() {
             onBackPressed()
         }
         binding?.btnCalculate?.setOnClickListener {
+            val  weight = binding?.etWeight?.text.toString()
             if (heightInCm) {
+              if(weight.isNotEmpty() && binding?.etHeight?.text.toString().isNotEmpty())
                 calculateBmiCm()
             }
            else{
+               if (weight.isNotEmpty() && binding?.etFeet?.text.toString().isNotEmpty() ||  binding?.etInch?.text.toString().isNotEmpty())
                calculateBmiFeet()
             }
         }
