@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_exiting_the_app"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#264653"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2dp"
+        android:paddingTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/choosing_exit_will_close_the_app_potentially_losing_unsaved_data_select_stay_to_continue_using_the_app"
+        android:textColor="#2a9d8f"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/view_stay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?selectableItemBackground"
+            android:gravity="end"
+            android:text="@string/stay"
+            android:textColor="#212529"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/view_exit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?selectableItemBackground"
+            android:gravity="end"
+            android:text="@string/exit"
+            android:textColor="#6c757d"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

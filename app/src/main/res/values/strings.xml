@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">7MinuteWorkout</string>
+    <string name="start_button_text">Start</string>
+    <string name="start_image">Start Image</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="exercise_image">Exercise image</string>
+    <string name="exercisename">ExerciseName</string>
+    <string name="upcoming_exercise">Upcoming Exercise :</string>
+    <string name="choosing_exit_will_close_the_app_potentially_losing_unsaved_data_select_stay_to_continue_using_the_app">Choosing \'Exit\' will close the app, potentially losing unsaved data; select \'Stay\' to continue using the app.</string>
+    <string name="warning_exiting_the_app">Warning: Exiting the App</string>
+    <string name="exit">Exit</string>
+    <string name="stay">Stay</string>
+</resources>
